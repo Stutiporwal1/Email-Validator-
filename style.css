@@ -76,6 +76,12 @@ input[type='text']{
 
 }
 
+.features-list li{
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+    
+
 footer{
     background-color: black;
     color: white;
