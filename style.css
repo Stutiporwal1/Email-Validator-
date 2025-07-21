@@ -76,10 +76,22 @@ input[type='text']{
 
 }
 
+.features-list{
+    list-style: none; /*removes default bullets*/
+    font-style: italic;
+    padding-left: 0;
+    margin: 20px auto;
+    display: block;
+    max-width: 500px;
+    text-align: left; /*to prevent stretching too wide*/
+}
+    
+
 .features-list li{
     margin-bottom: 10px;
     font-size: 16px;
 }
+    
     
 
 footer{
