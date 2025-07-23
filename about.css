@@ -49,3 +49,15 @@ body.dark-mode .about-container{
 body.dark-mode .hightlight{
     color: #90caf9;
 }
+
+#toggle-theme{
+    position: fixed;
+    top:20px;
+    right:20px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4A90E2;
+    color:white;
+    cursor: pointer;
+}
