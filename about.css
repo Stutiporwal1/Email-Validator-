@@ -45,3 +45,7 @@ body.dark-mode .about-container{
     background-color: #1e1e1e;
     color: #e0e0e0;
 }
+
+body.dark-mode .hightlight{
+    color: #90caf9;
+}
