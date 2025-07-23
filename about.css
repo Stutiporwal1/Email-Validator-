@@ -40,3 +40,8 @@ body.dark-mode{
     background: #121212;
     color: #f1f1f1;
 }
+
+body.dark-mode .about-container{
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
