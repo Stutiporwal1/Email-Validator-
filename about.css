@@ -34,3 +34,9 @@ body{
   color: black;
   font-weight: bold;
 }
+
+/*Dark Mode Support*/
+body.dark-mode{
+    background: #121212;
+    color: #f1f1f1;
+}
