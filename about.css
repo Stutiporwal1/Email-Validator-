@@ -12,6 +12,7 @@ body{
 .about-container {
   background: #fff;
   padding: 30px 40px;
+  position: fixed;
   border-radius: 10px;
   max-width: 800px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
