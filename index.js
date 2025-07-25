@@ -1,4 +1,7 @@
-console.log("This is my script")
+console.log("This is my script");
+
+const submitBtn = document.getElementById("submission");
+const resultCont = document.getElementById("resultCont");
 
 let result = {
     "tag" : "",
