@@ -21,21 +21,20 @@ let result = {
     "format_valid" : true
 }
 
-submitBtn.addEventListener("click", async () => {
-    e.preventDefault()
+submitBtn.addEventListener("click", (e) => {
+    e.preventDefault();
     console.log("Clicked!")
-    let email = document.getElementById("username").value
-    let res = await fetch(url)
-    let result = await res.json()
-    let str = ''
-    for (key of Object.keys(result)) {
+    let email = document.getElementById("username").value;
+    console.log("Input Email", email); 
+
+    let str = '';
+    for (let key of Object.keys(result)) {
         if(result[key] !== "" && result[key] !== " "){
-        str = str + '<div> ${key} : ${result[key]}</div>'
+        str += `<div>${key} : ${result[key]}</div>`;
         }
     }
-    console.log(str)
     resultCont.innerHTML = str
-})
+});
 
 
 
