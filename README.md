@@ -10,6 +10,11 @@
 - Privacy-focused (we never store your emails !)
 - Detects disposable email addresses
 - Validates syntax and domain instantly
- 
+
+### Tech Stack
+HTML, CSS, JavaScript
+
+### Contributing
+Pull requests are welcome. For major changes, open an issue first to discuss what you'd like to change.
 
 
